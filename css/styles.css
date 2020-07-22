@@ -1,10 +1,10 @@
-body {
-    margin:0;
+body,html {
+    margin:0 ;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px; 
     line-height: 1.6;
     color:#333;
-   
 }
 
 *,
@@ -22,7 +22,6 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-  
 }
 
 /* Header */
@@ -206,10 +205,8 @@ align-items: center;
   .footer {
     text-align: center;
     background-color: rgb(218, 201, 190);
-   }
-
-   .footer__nav{
-
+    margin-top: 20px;
+    bottom: 0;
    }
 
    .footer__logo{
@@ -222,3 +219,32 @@ align-items: center;
        font-weight: 400;
        font-size: 20px;
    }
+
+   /* Bag */
+   .bag__status{
+       text-align: center;
+       text-transform: uppercase;
+       font-weight: 300;
+   }
+
+   .bag__info{
+       margin-left: 20px;
+   }
+   .bag__info__title{
+       text-transform: uppercase;
+       font-weight: 300;
+   }
+
+   /* Input */
+   input{
+       width: 100%;
+   }
+
+   input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 2px;
+  }
+  

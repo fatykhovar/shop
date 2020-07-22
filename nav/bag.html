@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClothesShop</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="libs/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="../libs/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -16,7 +16,7 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a class="header__logo" href="index.html">ClothesShop</a>
+                <a class="header__logo" href="../index.html">ClothesShop</a>
                 <nav class="nav">
                     <a class="nav__link" href="nav/bag.html">
                         <i class="fa fa-shopping-bag fa-2x"></i>
@@ -32,66 +32,58 @@
 
         </div>
     </header>
-    <div class="intro">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo" href="../index.html">ClothesShop</a>
+                <nav class="nav">
+                    <a class="nav__link" href="nav/bag.html">
+                        <i class="fa fa-shopping-bag fa-2x"></i>
+                    </a>
+                    <a class="nav__link" href="nav/fav.html">
+                        <i class="fa fa-heart fa-2x"></i>
+                    </a>
+                    <a class="nav__link" href="nav/ship.html">
+                        <i class="fa fa-truck fa-2x"></i>
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="intro__pages">
         <div class="container">
             <div class="intro__inner">
                 <h2 class="intro__suptitle">Welcome to ClothesShop</h2>
-                <a class="btn" href="pages/catalog.html">Catalog</a>
             </div>
         </div>
     </div>
 
-    <div class="intro__new">
-        <div class="container">
-            <h1 class="intro__suptitle__2">New arrivals</h1>
-
-            <div class="row">
-                <!-- col-md-4 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card__image">
-                            <img src="images/home_page/home1.jpeg" alt="product" width="300" height="450">
-                        </div>
-                        <div class="card__title">White Blouse</div>
-                        <div class="card__price">
-                            <span>1600</span>
-                        </div>
-                    </div>
+    <header>
+        <h1 class="intro__suptitle__2">Shopping Bag</h1>
+    </header>
+    <div class="bag">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="widget">
                 </div>
-                <!-- col-md-4 -->
+            </div>
 
-                <!-- col-md-4 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card__image">
-                            <img src="images/home_page/home2.jpeg" alt="product" width="300" height="450">
-                        </div>
-                        <div class="card__title">Cotton Dress</div>
-                        <div class="card__price">
-                            <span>2300</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- col-md-4 -->
+            <div class="col-md-4">
+                <h2 class="bag__status">Your Shopping Bag is empty!</h2>
+            </div>
 
-                <!-- col-md-4 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card__image">
-                            <img src="images/home_page/home3.jpeg" alt="product" width="300" height="450">
-                        </div>
-                        <div class="card__title">Puff-Sleeved Top</div>
-                        <div class="card__price">
-                            <span>1700</span>
-                        </div>
-                    </div>
+            <div class="bag__info">
+                <h2 class="bag__info__title">Add a discount code</h2>
+                <div class="row">
+                    <input type="text">
+                    <a class="btn" href="#">ADD</a>
                 </div>
-                <!-- col-md-4 -->
             </div>
 
         </div>
     </div>
-
     <footer class="footer">
         <div class="footer__nav">
             <div class="container">
@@ -114,7 +106,7 @@
         </div>
         <div class="description">
             <div class="container">
-                <h1 class="footer__logo"><i class="fa fa-copyright "></i>ClothesShop</h1>
+                <h1 class="footer__logo"><i class="fa fa-copyright "></i> ClothesShop</h1>
                 <p class="footer__p">
                     The content of this site is copyright-protected
                     and is the property of ClothesShop.
