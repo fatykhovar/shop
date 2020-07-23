@@ -5,6 +5,7 @@ body,html {
     font-size: 15px; 
     line-height: 1.6;
     color:#333;
+    height: 100%;
 }
 
 *,
@@ -230,10 +231,37 @@ align-items: center;
    .bag__info{
        margin-left: 20px;
    }
+
    .bag__info__title{
        text-transform: uppercase;
        font-weight: 300;
    }
+
+   .bag__add{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .bag__add__btn{
+    border: 1px solid #333;
+    display: inline;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 20px;
+   }
+
+   .bag__add__btn:hover{
+   font-weight: 500;
+   color: #333;
+}
+
+.bag__returns{
+    padding: 20px;
+}
 
    /* Input */
    input{
@@ -241,10 +269,30 @@ align-items: center;
    }
 
    input[type=text] {
+    font-size: 20px;
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin:0;
     box-sizing: border-box;
-    border-width: 2px;
+    border-width: 1px;
+    height: 56px;
   }
+
+  /* Fav */
+  .fav{
+      text-align: center;
+  }
+  .fav__prod{
+      text-transform: uppercase;
+      font-weight: 300;
+  }
+
+  .fav__link{
+      color: black;
+  }
+  .fav__link:hover{
+      color: black;
+  }
+
+
   
